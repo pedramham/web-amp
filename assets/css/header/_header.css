@@ -1,0 +1,15 @@
+.header {
+    height:  var(--height-header);
+    background-color: var(--color-gray-900);
+
+}
+
+.header_container {
+    width: var(--width-container);
+    max-width: var(--max-width-container);
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

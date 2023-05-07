@@ -1,0 +1,21 @@
+.header_container .icon-social-media .rounded {
+    border-radius: 50%;
+}
+
+.header_container>.icon-social-media {
+    display: flex;
+    gap:  var(--gap-icon-social-media);
+    align-items: end;
+    height: 100%;
+    padding-bottom: var(--padding-bottom-icon);
+}
+
+amp-social-share {
+    color: var(--color-gray-900);
+    background: var(--color-yellow-700);
+}
+
+amp-social-share:hover {
+    border: 1px solid var(--color-yellow-700);
+    color: var(--color-gray-900);
+}

@@ -1,0 +1,33 @@
+:root {
+  --color-gray-0: #FAFAFA;
+  --color-gray-900: #212121;
+  --color-gray-800: #242734;
+
+  --color-yellow-500: #FFC107;
+  --color-yellow-700: #FFAD00;
+  
+  --font-monospace: monospace;
+  --font-helvetica: 'Helvetica';
+  --font-sans-serif: sans-serif;
+  --font-ubuntu: 'Ubuntu';
+
+  --border-radius-10: 10px;
+  --border-radius-5: 5px;
+
+  --font-size-p:1rem;
+  --font-size-menu-text:1.2rem;
+
+  --font-weight-menu:600;
+
+  --padding-text-menu:28px 10px;
+  --padding-bottom-icon:50px;
+
+  --gap-icon-social-media:10px;
+
+  --height-header:135px;
+
+  --width-container:95%;
+  --max-width-container:1300px;
+
+  --carousel-fixed-height-container-height:533px;
+}

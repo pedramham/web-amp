@@ -1,0 +1,97 @@
+.container {
+    width: var(--width-container);
+    max-width: var(--max-width-container);
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-monospace);
+}
+
+a {
+    color: var(--color-gray-900);
+    text-decoration: none;
+}
+
+p,
+strong {
+    font-family: var(--font-helvetica), var(--font-sans-serif), var(--font-ubuntu);
+}
+
+p {
+    font-size: var(--font-size-p);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.readmore {
+    font-size: 14px;
+    border-radius: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    color: var(--color-yellow-700);
+    font-family: var(--font-ubuntu), var(--font-helvetica), var(--font-sans-serif);
+    word-spacing: 5px;
+}
+
+.readmore .readmore-efect {
+    display: flex;
+}
+
+.readmore .readmore-efect .read {
+    background-color: var(--color-yellow-700);
+    color: var(--color-gray-900);
+    padding: 0 10px;
+    padding: 0 10px;
+    border-left: 1px solid var(--color-gray-900);
+    border-top: 1px solid var(--color-gray-900);
+    border-bottom: 1px solid var(--color-gray-900);
+}
+
+.readmore .readmore-efect .more {
+    background-color: var(--color-gray-900);
+    color: var(--color-yellow-700);
+    padding: 0 10px;
+    border-right: 1px solid var(--color-gray-900);
+    border-top: 1px solid var(--color-gray-900);
+    border-bottom: 1px solid var(--color-gray-900);
+}
+
+.readmore .readmore-efect:hover > .read{
+    background-color: var(--color-gray-900);
+    color: var(--color-yellow-700);
+    font-weight: 600;
+}
+
+.readmore .readmore-efect:hover > .more {
+    background-color: var(--color-yellow-700);
+    color: var(--color-gray-900);
+    font-weight: 600;
+    
+}

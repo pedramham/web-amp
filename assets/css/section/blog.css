@@ -1,0 +1,40 @@
+.blog-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+.blog-section .card {
+    width: 100%;
+}
+
+.blog-section .card .header-blog {
+    background-image: -webkit-linear-gradient(37deg, var(--color-yellow-700) 28%, var(--color-gray-900) 29%);
+    color: var(--color-gray-900);
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--font-ubuntu);
+    border-top-left-radius: var(--border-radius-5);
+    border-top-right-radius: var(--border-radius-5);
+}
+
+.blog-section .card .card-body {
+    padding: 15px 0;
+}
+
+.blog-section .card .card-body .card-description {
+    line-height: 1.5rem;
+}
+
+.blog-section .card .contain img:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 500px) {
+    .blog-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+}

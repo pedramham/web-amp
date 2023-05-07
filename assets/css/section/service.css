@@ -1,0 +1,94 @@
+.service-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.service-section .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-section .left h3 {
+    font-size: 3.5em;
+    line-height: 1.3em;
+    margin: auto;
+}
+
+.service-section .left .title h3{
+    font-size: 3.5em;
+    line-height: 1.3em;
+    margin: auto;
+    border-left: 2px solid black;
+    height: 100%;
+    padding-left: 15px;
+}
+
+.service-section .left .content {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.service-section .right .category-service .card-service .contain {
+    position: relative;
+    width: 250px;
+}
+
+.service-section .right {
+    display: flex;
+    justify-self: end;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.service-section .right .category-service {
+    display: flex;
+    gap: 10px;
+  
+}
+
+.service-section .right .category-service .card-service {
+    position: relative;
+}
+
+.service-section .right .category-service h4 {
+    text-align: center;
+    background-color: var(--color-gray-900);
+    color: var(--color-yellow-700);
+    position: absolute;
+    padding: 10px;
+    opacity: 0.9;
+    font-weight: 600;
+    line-height: 1.5rem;
+    bottom: -17px;
+    width: 92%;
+    display: grid;
+    height: 40px;
+    align-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .service-section{
+        grid-template-columns: inherit;
+        padding: 20px;
+        gap: 20px;
+    }
+    .service-section .left h3 {
+        font-size: 1.5rem;
+    }
+    .service-section .left p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    
+    .service-section .right {
+        flex-direction: row;
+        overflow: auto;
+        width: 100%;
+
+    }
+    
+
+}

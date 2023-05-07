@@ -1,0 +1,47 @@
+.slug-section {
+    background-color: var(--color-gray-900);
+    color: var(--color-gray-0);
+}
+
+.slug-section .slug-box {
+    width: 100%;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.slug-section h3 {
+    font-size: 3.4em;
+    line-height: 1.3em;
+    margin: auto;
+    text-align: center;
+    word-spacing: -5px;
+}
+
+.slug-section .description {
+    line-height: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.slug-section .content {
+    height: 300px;
+    position: relative;
+    display: block;
+}
+.slug-section .slug-box h3::first-letter {
+    color: var(--color-yellow-700);
+}
+.slug-section .slug-box strong{
+    color: var(--color-yellow-700);
+}
+
+@media only screen and (max-width: 500px) {
+.slug-section .content {
+    height: 550px;
+}
+.slug-section .slug-box {
+    max-width: unset;
+}
+}
